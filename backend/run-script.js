@@ -1,6 +1,6 @@
 const { exec } = require('child_process');
 
-exec('bash create-html.sh', (error, stdout, stderr) => {
+exec('bash build.sh', (error, stdout, stderr) => {
     if (error) {
         console.error(`Error executing script: ${error.message}`);
         return;
