@@ -1,0 +1,15 @@
+{
+  "name": "my-suspicious-project",
+  "version": "1.0.0",
+  "description": "A seemingly innocent project with a hidden agenda",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "./build.sh"
+  },
+  "author": "Anonymous Developer",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
